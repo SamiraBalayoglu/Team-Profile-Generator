@@ -10,6 +10,16 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.my-profile {
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
