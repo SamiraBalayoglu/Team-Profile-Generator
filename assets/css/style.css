@@ -1,0 +1,44 @@
+/* CSS styles for the team profile */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: calc(48% - 10px); /* Adjusted width to fit two cards per row */
+}
+
+.card:nth-child(odd) {
+    background-color: #f9f9f9; /* Alternate background color for odd cards */
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    padding: 10px 0;
+}
+
+.card-body p {
+    margin: 5px 0;
+}
